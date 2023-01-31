@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*Header*/
+
+.header {
+  align-items: center;
+}
+
+/*Menu nav*/
+.dropdown {
+  margin: 0 16px;
+}
+.collapse {
+  justify-content: space-between;
+}
+/*Container shopping*/
+.cart-shop {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 16px 0;
+}
+.cart-list {
+  text-align: center;
+  padding: 5px;
+}
+.card-body {
+  margin-top: 5px;
+}
+.poly-cart {
+  padding: 5px;
+  margin-top: 16px;
+}
